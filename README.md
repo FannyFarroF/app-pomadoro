@@ -1,4 +1,18 @@
-# app-pomador
+<h1 align="center">App Pomadoro</h1>
+<div align="center">
+  <h3>
+    <a href="">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/FannyFarroF/app-pomadoro.git">
+      Solution
+    </a>
+  </h3>
+</div>
+
+
+
 
 ## Project setup
 ```
