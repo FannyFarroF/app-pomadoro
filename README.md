@@ -1,8 +1,7 @@
 <h1 align="center">App Pomadoro</h1>
 <div align="center">
   <h3>
-    <a href="https://loving-visvesvaraya-c82bcd.netlify.app/
-">
+    <a href="https://loving-visvesvaraya-c82bcd.netlify.app/">
       Demo
     </a>
     <span> | </span>

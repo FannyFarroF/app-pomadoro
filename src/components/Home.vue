@@ -372,6 +372,15 @@
     color: #fff;
   }
 
+  .options-times {
+    flex-direction: column;
+    .field {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
   /* --------------------------------
            *** MODAL ***
 -----------------------------------*/
