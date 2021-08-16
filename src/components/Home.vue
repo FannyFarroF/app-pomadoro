@@ -217,13 +217,14 @@
 
       seleccionarMet(value) {
         this.optionDefault = value;
+        this.running = false;
+        clearInterval(this.time);
+        this.time = null;
       },
       selectColor(value) {
         this.colorTemporal = value;
       },
       saveSettings() {
-        console.log("Guardando los valores iniciales");
-
         this.colorDefault = this.colorTemporal;
 
         // Guardar los nuevos valores
@@ -235,9 +236,11 @@
       start() {
         this.running = true;
 
-        this.time = setInterval(() => {
-          this.countDown();
-        }, 1000);
+        if (this.running) {
+          this.time = setInterval(() => {
+            this.countDown();
+          }, 1000);
+        }
       },
       countDown() {
         if (this.totalTime > 0) {
